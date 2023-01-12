@@ -24,11 +24,13 @@
         'OTHER_CFLAGS': [
           '-O3',
           '-Wall',
+          '-std=gnu99',
         ]
       },
       'cflags': [
         '-O3',
         '-Wall',
+	'-std=gnu99',
       ],
       'libraries': [
         '<!(node deps/bin.js --print-lib)'
